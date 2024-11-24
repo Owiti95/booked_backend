@@ -6,3 +6,4 @@ from .cart_item import CartItem
 from .sale import Sale
 from .borrowing import Borrowing
 from .association_tables import cart_items_association, borrowings_association
+from .transaction import Transaction
