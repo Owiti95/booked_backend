@@ -28,7 +28,7 @@ def create_app():
     bcrypt.init_app(app)
     jwt.init_app(app)
     migrate.init_app(app, db)
-    CORS(app, origins=["https://booked-client.vercel.app/"], supports_credentials=True)
+    CORS(app, origins=["http://localhost:5173", "https://booked-client.vercel.app"], supports_credentials=True)
 
         # M-Pesa configuration
     app.config["CONSUMER_KEY"] = os.getenv("CONSUMER_KEY")
