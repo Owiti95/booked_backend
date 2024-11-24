@@ -8,4 +8,4 @@ gunicorn
 Flask-cors
 sqlalchemy_serializer
 requests
-dotenv
+python-dotenv
